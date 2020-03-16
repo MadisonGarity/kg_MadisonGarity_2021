@@ -1,7 +1,16 @@
 import java.util.Collection;
 import java.util.HashMap;
-
+/**
+ * Determines if a one to one character mapping exist from one string. If one does exist then
+ * it will print out true to stdout and if one does not exist it will print out false.
+ * @author Madison Garity
+ *
+ */
 public class main {
+	/**
+	 * Determines if the given strings have an existing one to one character mapping
+	 * @param args Command line arguments
+	 */
 	public static void main(String [] args) {
 		// Determines if the correct number of strings is entered by the user
 		if(args.length != 2) {
